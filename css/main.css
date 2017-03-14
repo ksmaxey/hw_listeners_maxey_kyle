@@ -1,8 +1,58 @@
 body {
     background-color: #ff7f50;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #660000;
 }
 
 .container {
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
+    color: #404040;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+label {
+    padding: 0.2em;
+}
+
+textarea {
+    resize: none;
+}
+
+#button {
+    padding-top: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+label,
+textarea {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+input[type="submit"] {
+    float: right;
+    background-color: #990000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: orange;
+    font-size: 0.75em;
+}
+
+input[type="submit"]:hover {
+    background-color: #660000;
 }
