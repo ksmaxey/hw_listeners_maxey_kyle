@@ -17,25 +17,13 @@ count.onclick = function () {
 //Submitted Info
 
 var firstNameInput = document.getElementById('firstName');
-document.addEventListener('submit', function (info) {
-    info.preventDefault();
-    console.log('The firstName is:', firstNameInput.value);
-});
-
 var lastNameInput = document.getElementById('lastName');
-document.addEventListener('submit', function (info) {
-    info.preventDefault();
-    console.log('The lastName is:', lastNameInput.value);
-});
-
 var emailInput = document.getElementById('email');
-document.addEventListener('submit', function (info) {
-    info.preventDefault();
-    console.log('The email is:', emailInput.value);
-});
-
 var messageInput = document.getElementById('message');
 document.addEventListener('submit', function (info) {
     info.preventDefault();
+    console.log('The firstName is:', firstNameInput.value);
+    console.log('The lastName is:', lastNameInput.value);
+    console.log('The email is:', emailInput.value);
     console.log('The message is:', messageInput.value);
 });
