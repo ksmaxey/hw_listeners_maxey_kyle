@@ -96,6 +96,26 @@ input[type="submit"]:hover {
     background-color: #660000;
 }
 
+::-webkit-input-placeholder {
+    color: #ff7f50;
+    font-size: 0.75em;
+}
+
+:-moz-placeholder {
+    color: #ff7f50;
+    font-size: 0.75em;
+}
+
+::-moz-placeholder {
+    color: #ff7f50;
+    font-size: 0.75em;
+}
+
+:-ms-input-placeholder {
+    color: #ff7f50;
+    font-size: 0.75em;
+}
+
 article {
     padding-bottom: 20px;
 }
