@@ -124,3 +124,37 @@ footer {
 footer p {
     padding: 10px;
 }
+
+@media all and (min-width: 700px) {
+    nav li {
+        display: inline-block;
+        width: calc(100% / 2);
+    }
+}
+
+@media all and (min-width: 1000px) {
+    nav li {
+        display: inline-block;
+        width: calc(60% / 4);
+    }
+}
+
+@media (min-width: 1000px) {
+    #body {
+        padding: 20px;
+    }
+    #main {
+        float: left;
+        width: 50%;
+        display: inline-block;
+    }
+    #aside {
+        float: right;
+        width: 50%;
+        display: inline-block;
+        border: none;
+    }
+    footer {
+        display: inline-block;
+    }
+}
