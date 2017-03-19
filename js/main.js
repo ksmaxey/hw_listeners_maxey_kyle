@@ -22,3 +22,14 @@ document.addEventListener('submit', function (info) {
     console.log('The email is:', emailInput.value);
     console.log('The message is:', messageInput.value);
 });
+
+//Event Listeners
+
+//The following event listener listens for a click on the listener.jpg image.  Once the user reads the caption and clicks the image, the event listener will fire the fuction that contains an if statement, and the image will then change to a different image.
+
+var change = document.getElementById('howitworks');
+change.addEventListener('click', function () {
+    if (change.src !== 'img/listener.jpg') {
+        change.src = 'img/wow.jpg';
+    }
+});
