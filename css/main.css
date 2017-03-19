@@ -69,6 +69,15 @@ input[type="submit"]:hover {
     background-color: #660000;
 }
 
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 0.9em;
+    text-align: center;
+}
+
 footer {
     background-color: gray;
     opacity: 0.5;
