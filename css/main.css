@@ -10,6 +10,11 @@ h1 {
     color: #660000;
 }
 
+h1 img {
+    padding-right: 10px;
+    max-width: 100px;
+}
+
 .container {
     width: 100%;
     max-width: 1000px;
