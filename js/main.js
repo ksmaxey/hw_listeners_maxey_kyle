@@ -43,3 +43,11 @@ colorChange.addEventListener('focus', function (color) {
 colorChange.addEventListener('blur', function (color) {
     color.target.style.background = '';
 }, true);
+
+//This final event listener listens for the user to scroll.  Once the user scrolls, the header will change to white and "You scrolled!" will be logged to the console.  I am anxious to play with this feature more because I think it will be really versatile.
+
+var bg = document.getElementById('h1');
+document.addEventListener('scroll', function () {
+    bg.style.color = 'white';
+    console.log('You scrolled!');
+});
