@@ -119,22 +119,22 @@ input[type="submit"]:hover {
 
 ::-webkit-input-placeholder {
     color: #ff7f50;
-    font-size: 0.75em;
+    font-size: 0.5em;
 }
 
 :-moz-placeholder {
     color: #ff7f50;
-    font-size: 0.75em;
+    font-size: 0.5em;
 }
 
 ::-moz-placeholder {
     color: #ff7f50;
-    font-size: 0.75em;
+    font-size: 0.5em;
 }
 
 :-ms-input-placeholder {
     color: #ff7f50;
-    font-size: 0.75em;
+    font-size: 0.5em;
 }
 
 article {
