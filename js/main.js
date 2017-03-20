@@ -33,3 +33,13 @@ change.addEventListener('click', function () {
         change.src = 'img/wow.jpg';
     }
 });
+
+//The following event listener uses both the focus and blur form events to style the form input fields.  When the user "focuses" or clicks on the input fields, the background color changes from white to gray.  This allows the user to know which form field they are currently on.  I then use the blur form event to change the color back to white when the user "unfocuses."
+
+var colorChange = document.getElementById('form');
+colorChange.addEventListener('focus', function (color) {
+    color.target.style.background = '#cccccc';
+}, true);
+colorChange.addEventListener('blur', function (color) {
+    color.target.style.background = '';
+}, true);
